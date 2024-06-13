@@ -1,0 +1,41 @@
+{
+	"theme": "auto",
+	"pages": [
+		{
+			"name": "index",
+			"title": "Главная"
+		},
+		{
+			"name": "blog",
+			"title": "Блог",
+			"pages": [
+				{
+					"name": "post",
+					"title": "Пост 1",
+					"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+				},
+				{
+					"name": "post",
+					"title": "Пост 2",
+					"content": "Ipsum dolor sit amet consectetur adipisicing elit."
+				}
+			]
+		},
+		{
+			"name": "contacts",
+			"title": "Контакты",
+			"fields": [
+				{
+					"name": "phone",
+					"type": "number",
+					"value": "88005553535"
+				},
+				{
+					"name": "address",
+					"type": "string",
+					"value": "ул. Ленина 1"
+				}
+			]
+		}
+	]
+}
